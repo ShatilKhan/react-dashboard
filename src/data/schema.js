@@ -21,12 +21,12 @@ const schemaConfig = {
 
 // for demo purposes forbid mutations in production environment, if you want to enable mutation uncomment code below
 
-// schemaConfig.mutation = new ObjectType({
-//   name: 'Mutation',
-//   fields: {
-//     addPost,
-//   },
-// });
+schemaConfig.mutation = new ObjectType({
+  name: 'Mutation',
+  fields: {
+    addPost,
+  },
+});
 
 
 
